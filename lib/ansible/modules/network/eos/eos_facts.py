@@ -21,6 +21,7 @@ ANSIBLE_METADATA = {'metadata_version': '1.0',
                     'supported_by': 'core'}
 
 
+
 DOCUMENTATION = """
 ---
 module: eos_facts
