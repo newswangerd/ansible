@@ -1,0 +1,6 @@
+---
+  - name: ensure that nefconf is enabled on port 830
+    junos_netconf:
+      listens_on: 830
+      state: present
+      provider: "{{ cli }}"
