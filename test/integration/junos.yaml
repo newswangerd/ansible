@@ -17,9 +17,9 @@
         test_failed: false
         failed_modules: []
 
-    # - block:
-    #   - include_role:
-    #       name: prepare_junos_tests
+    - block:
+      - include_role:
+          name: prepare_junos_tests
 
     - block:
       - include_role:
